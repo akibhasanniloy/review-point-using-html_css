@@ -1,0 +1,124 @@
+/* Common part */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ol{
+    list-style-image: url('images/Done_ring_round_fill.svg');
+}
+/* Left Review */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.container .left-text, .right-review{
+    width: 50%;
+}
+.left-text{
+    margin-left: 30px;
+}
+.left-star{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(247, 179, 6, 0.473);
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    /* padding-top: 6px; */
+}
+.left-star> img{
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-top: 7px;
+}
+.title-heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.title-pera{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.title-check{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+/* Right Review */
+/* only for right review */
+.rightfirst{
+    margin-left: 180px;
+    margin-bottom: 0px;
+}
+
+.right-review{
+    margin-left: 40px;
+}
+.right-1st{
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px gray;
+    box-shadow: ;
+    height: 150px;
+    width: 360px;
+    padding: 25px;
+}
+.img-company{
+    height: 60px;
+    margin-right: 10px;
+}
+.img-rating{
+    height: 25px;
+    padding-right: 5px;
+}
+.ra-img{
+    padding-top: 15px;
+}
+.right1stimg{
+    display: flex;
+    justify-content: flex-start;
+}
+.right1st-pera{
+    width: 260px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.right1st-title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+}
+/* Right review 2nd */
+.rightsecond{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.img-ra{
+    padding-top: 20px;
+}
+/* Modile Responsive */
+@media screen and (max-width: 640px) {
+    .container{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .right-1st{
+        width: 380px;
+    }
+    .right-review{
+        margin-top: 40px;
+        height: 600px;
+    }
+}
