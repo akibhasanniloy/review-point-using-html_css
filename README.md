@@ -19,5 +19,15 @@ It displays who reviewed a product, service, or item and how many stars they’v
 - **CSS3** – For styling and layout  
 
 ---
-```text
-Deploy website link for this project: https://akibhasanniloy.github.io/review-point-using-html_css/
+
+## 📷 Check for 
+🔗 **Deploy link:** [Click here to view Review Point]([https://akibhasanniloy.github.io/review-point-using-html_css/](https://akibhasanniloy.github.io/review-point-using-html_css/))
+
+---
+
+## 🔧 Future Improvements
+- Add functionality for users to submit their own reviews  
+- Include a backend or database to store reviews dynamically  
+- Implement a rating calculation or average display  
+
+---
