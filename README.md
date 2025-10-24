@@ -20,8 +20,8 @@ It displays who reviewed a product, service, or item and how many stars they’v
 
 ---
 
-## 📷 Check for 
-🔗 **Deploy link:** [Click here to view Review Point](https://akibhasanniloy.github.io/review-point-using-html_css/)
+## !!Check it!! 
+🔗 **Deploy link:** [View](https://akibhasanniloy.github.io/review-point-using-html_css/)
 
 ---
 
